@@ -1,0 +1,55 @@
+/**
+ * Kinvolk theme for reveal.js.
+ *
+ * https://kinvolk.io
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/roboto/roboto.css);
+@import url(../../lib/font/roboto-slab/roboto-slab.css);
+@import url(../../lib/font/droid-sans-mono/droid-sans-mono.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 42px;
+$mainFont: 'Roboto', Helvetica, sans-serif;
+$headingFont: 'Roboto Slab', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 600;
+$linkColor: #2a76dd;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+.reveal .slides section {
+	text-align: left;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+
+// Override CSS --------------------------------
+
+.reveal code {
+	font-family: 'Droid Sans Mono';
+}
