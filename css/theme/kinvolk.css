@@ -295,3 +295,6 @@ body {
 
 .reveal code {
   font-family: 'Droid Sans Mono'; }
+
+.reveal ul {
+  line-height: 1.3em; }

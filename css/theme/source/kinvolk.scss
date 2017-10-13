@@ -53,3 +53,9 @@ $heading4Size: 1.0em;
 .reveal code {
 	font-family: 'Droid Sans Mono';
 }
+
+// Fixes a (unknown) bug where the li line-height
+// is wrong (too low) in the exported PDF
+.reveal ul {
+	line-height: 1.3em;
+}
