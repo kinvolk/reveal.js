@@ -54,6 +54,11 @@ $heading4Size: 1.0em;
 	font-family: 'Droid Sans Mono';
 }
 
+.reveal section img {
+	border: 0;
+	box-shadow: none;
+}
+
 // Fixes a (unknown) bug where the li line-height
 // is wrong (too low) in the exported PDF
 .reveal ul {

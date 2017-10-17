@@ -296,5 +296,9 @@ body {
 .reveal code {
   font-family: 'Droid Sans Mono'; }
 
+.reveal section img {
+  border: 0;
+  box-shadow: none; }
+
 .reveal ul {
   line-height: 1.3em; }
