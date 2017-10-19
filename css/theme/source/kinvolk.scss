@@ -54,6 +54,11 @@ $heading4Size: 1.0em;
 	font-family: 'Droid Sans Mono';
 }
 
+.reveal pre code {
+	max-height: 100%;
+	overflow-y: hidden;
+}
+
 .reveal section img {
 	border: 0;
 	box-shadow: none;
