@@ -96,7 +96,12 @@ module.exports = function(grunt) {
 			server: {
 				options: {
 					port: port,
-					base: root,
+					base: {
+						path: String(root),
+						options: {
+							index: 'kinvolk.html'
+						}
+					},
 					livereload: true,
 					open: true
 				}
